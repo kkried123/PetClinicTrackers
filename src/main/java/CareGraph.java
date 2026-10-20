@@ -40,7 +40,6 @@ public class CareGraph {
         adjacency.get(b).remove(a);
     }
 
-    // Remove a vertex and every connection pointing to it.
     public void removeVertex(String id) {
         check(id);
 
